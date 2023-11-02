@@ -23,7 +23,7 @@ export default function Card({openSpots, location, coverImg, stats, rating, revi
                 <span className="gray">({reviewCount}) • </span>
                 <span className="gray">{location}</span>
             </div>
-            <p className="card--title">{title}</p>
+            <p className="card--title">{title}</p>;
             <p className="card--price">
                 <span className="bold">From ${price}</span> / person
             </p>
